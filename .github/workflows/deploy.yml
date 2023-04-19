@@ -1,19 +1,21 @@
-name: GitHub Actions Build and Deploy Doc
-on:
-  push:
-    branches:
-      - release
+name: Build and Deploy
+on: [push]
+permissions:
+  contents: write
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@release
+      - name: Checkout 🛎️
+        uses: actions/checkout@release
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.PAGES_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
-        BUILD_SCRIPT: yarn install && GIT_USER=virtuex yarn deploy
+      - name: Install and Build
+        run: |
+          yarn install
+          yarn build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
+          token: ${{ secrets.PAGES_TOKEN }}
