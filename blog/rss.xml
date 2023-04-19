@@ -4,7 +4,7 @@
         <title>My Site Blog</title>
         <link>https://virtuex.github.io/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Wed, 19 Apr 2023 02:35:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Apr 2023 03:02:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[1test]]></title>
             <link>https://virtuex.github.io/blog/1test</link>
             <guid>https://virtuex.github.io/blog/1test</guid>
-            <pubDate>Wed, 19 Apr 2023 02:35:27 GMT</pubDate>
+            <pubDate>Wed, 19 Apr 2023 03:02:01 GMT</pubDate>
             <description><![CDATA[test2]]></description>
             <content:encoded><![CDATA[<p>test2</p>]]></content:encoded>
         </item>
@@ -20,7 +20,7 @@
             <title><![CDATA[test]]></title>
             <link>https://virtuex.github.io/blog/test</link>
             <guid>https://virtuex.github.io/blog/test</guid>
-            <pubDate>Wed, 19 Apr 2023 02:35:27 GMT</pubDate>
+            <pubDate>Wed, 19 Apr 2023 03:02:01 GMT</pubDate>
             <description><![CDATA[test]]></description>
             <content:encoded><![CDATA[<p>test</p>]]></content:encoded>
         </item>
