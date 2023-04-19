@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@release
+        uses:  actions/checkout@v3
 
       - name: Install and Build
         run: |
